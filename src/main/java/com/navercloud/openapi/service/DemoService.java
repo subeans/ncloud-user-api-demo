@@ -136,7 +136,7 @@ public class DemoService extends BaseService {
 			.vpcNo(vpcNo)
 			.subnetNo(subnetNo)
 			.serverName("user-api-test-server")
-			.loginKeyName("user-api-test-key")
+			.loginKeyName("user-api-key")
 			.networkInterfaceList(Arrays.asList(networkInterface))
 			.build();
 
